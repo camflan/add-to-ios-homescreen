@@ -1,0 +1,19 @@
+{
+  "name": "add-to-ios-homescreen",
+  "version": "1.0.0",
+  "description": "Callout to add app to homescreen for iOS devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ceratech/add-to-ios-homescreen.git"
+  },
+  "author": "Ceratech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ceratech/add-to-ios-homescreen/issues"
+  },
+  "homepage": "https://github.com/Ceratech/add-to-ios-homescreen#readme"
+}
