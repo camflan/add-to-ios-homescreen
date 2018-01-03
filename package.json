@@ -1,6 +1,6 @@
 {
   "name": "add-to-ios-homescreen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Callout to add app to homescreen for iOS devices",
   "main": "index.js",
   "scripts": {
