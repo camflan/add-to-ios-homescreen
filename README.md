@@ -1,6 +1,6 @@
 # Add to Homescreen call out
 
-Script for mobile devices, it automatically shows an overlaying message encouraging to add the web app to the homescreen. Compatible with iOS 6+ and Chrome for Android (soon WinPhone).
+Script for mobile iOS devices, it automatically shows an overlaying message encouraging to add the web app to the homescreen. Compatible with iOS 6+.
 
 ## Installation
 
@@ -18,7 +18,7 @@ addToHomescreen();
 </head>
 ```
 
-For more, consult the [project website](http://cubiq.org/add-to-home-screen).
+For more, consult the original project's [website](http://cubiq.org/add-to-home-screen).
 
 ## License
 
