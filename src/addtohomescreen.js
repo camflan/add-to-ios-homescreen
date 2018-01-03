@@ -119,7 +119,7 @@ ath.intl = {
 	},
 
 	nl_nl: {
-		ios: 'Om deze webapp aan je startscherm toe te voegen, klik op %icon en dan <strong>Zet in startscherm</strong>.',
+		ios: 'Om deze webapp aan je startscherm toe te voegen, klik op %icon en dan <strong>Zet op beginscherm</strong>.',
 		android: 'Om deze webapp aan je startscherm toe te voegen, open de browserinstellingen en tik op <strong>Toevoegen aan startscherm</strong>. <small>Gebruik de "menu" knop als je telefoon die heeft, anders het menu-icoon rechtsbovenin %icon.</small>'
 	},
 
