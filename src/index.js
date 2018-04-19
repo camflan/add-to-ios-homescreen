@@ -34,7 +34,7 @@ class AddToHomescreen {
         modal: false, // prevent further actions until the message is closed
         showClose: true, // show the close button on the popup
         mandatory: false, // you can't proceed if you don't add the app to the homescreen
-        autostart: true, // show the message automatically
+        autostart: false, // show the message automatically
         skipFirstVisit: false, // show only to returning visitors (ie: skip the first time you visit)
         startDelay: 1, // display the message after that many seconds from page load
         lifespan: 15, // life of the message in seconds
@@ -107,7 +107,7 @@ class AddToHomescreen {
         if (
             this.options &&
             this.options.debug &&
-            typeof this.options.logging === 'undefined'
+            this.options.logging != false
         ) {
             this.options.logging = true
         }

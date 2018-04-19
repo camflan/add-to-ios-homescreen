@@ -6,14 +6,12 @@
                 "browsers": ["last 2 versions", "safari >= 7"]
             }
         }],
-        "react",
         "stage-2"
     ],
     "env": {
         "test": {
             "presets": [
                 "env",
-                "react",
                 "stage-2",
                 "stage-0",
             ]

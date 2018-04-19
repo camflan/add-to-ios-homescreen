@@ -1,19 +1,41 @@
 {
-  "name": "add-to-ios-homescreen",
-  "version": "1.0.2",
-  "description": "Callout to add app to homescreen for iOS devices",
-  "main": "index.js",
+  "name": "add-to-ios-homescreen-esm",
+  "version": "1.0.3",
+  "description": "Callout to add app to homescreen for iOS devices, as a module",
+  "main": "./dist/addtohomescreen.js",
+  "module": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier src/*.js --write",
+    "build": "webpack --mode production",
+    "prepublish": "build"
+    },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Ceratech/add-to-ios-homescreen.git"
+    "url": "git+ssh://git@github.com/camflan/add-to-ios-homescreen.git"
   },
-  "author": "Ceratech",
+  "author": "Camron Flanders",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ceratech/add-to-ios-homescreen/issues"
+    "url": "https://github.com/camflan/add-to-ios-homescreen/issues"
   },
-  "homepage": "https://github.com/Ceratech/add-to-ios-homescreen#readme"
+  "homepage": "https://github.com/camflan/add-to-ios-homescreen#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.4.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.12.1",
+    "prettier-eslint": "^8.2.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
 }
