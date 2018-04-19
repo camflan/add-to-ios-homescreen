@@ -87,7 +87,7 @@
 }
 
 /* close icon */
-.ath-container:before {
+.ath-container.ath-show-close:before {
 	content: '';
 	position: relative;
 	display: block;
