@@ -1,23 +1,19 @@
 {
-  "name": "add-to-ios-homescreen-esm",
-  "version": "1.0.3",
+  "name": "add-to-ios-homescreen",
+  "version": "1.0.2",
   "description": "Callout to add app to homescreen for iOS devices",
-  "main": "./src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier src/*.js --write"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/camflan/add-to-ios-homescreen.git"
+    "url": "git+ssh://git@github.com/Ceratech/add-to-ios-homescreen.git"
   },
-  "author": "Camron Flanders",
+  "author": "Ceratech",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/camflan/add-to-ios-homescreen/issues"
+    "url": "https://github.com/Ceratech/add-to-ios-homescreen/issues"
   },
-  "homepage": "https://github.com/camflan/add-to-ios-homescreen#readme",
-  "devDependencies": {
-    "prettier": "^1.12.1"
-  }
+  "homepage": "https://github.com/Ceratech/add-to-ios-homescreen#readme"
 }
