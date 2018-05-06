@@ -2,14 +2,14 @@
   "name": "add-to-ios-homescreen-esm",
   "version": "1.0.3",
   "description": "Callout to add app to homescreen for iOS devices, as a module",
-  "main": "./dist/addtohomescreen.js",
-  "module": "./src/index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier src/*.js --write",
-    "build": "webpack --mode production",
-    "prepublish": "build"
-    },
+    "build": "babel -d dist src/**/*.js",
+    "prepublishOnly": "npm run-script build"
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/camflan/add-to-ios-homescreen.git"
@@ -34,8 +34,6 @@
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.2",
     "prettier": "^1.12.1",
-    "prettier-eslint": "^8.2.1",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "prettier-eslint": "^8.2.1"
   }
 }
